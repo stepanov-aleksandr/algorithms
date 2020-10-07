@@ -1,0 +1,29 @@
+Estimation time: not more than 90 minutes.
+Send results as compilable code for gcc or clang with respective make or configuration files for
+Linux or compatible systems. Use reasonably modern compiler versions (gcc 8+, clang 8+).
+C standard up to C18. C++ standard up to C++17. Use GNU make, GNU autotools or CMake.
+Windows users may consider WSL or MinGW64 to verify compilation.
+Depending on position you apply for, try to demonstrate your embedded programming skills,
+C or C++ language features and standard library knowledge, ability to write maintainable code.
+Unit tests that verify implementation to satisfy the task are recommended. Use some well-known
+framework such as CppUTest or GoogleTest (provide version used).
+1 Write a function that calculates the first N prime numbers and put these numbers in the
+array passed to it.
+2 Write a function that counts the number of words in the text for each word length
+(X words with 1-letter length, Y words with 2-letters length, etc.)
+3 There is a list:
+struct List {
+struct List* next;
+SomeDataType payload;
+}
+Write a function that removes every fifth (5) element from this list.
+4 Write a function that takes a 32-bit unsigned integer number and returns the maximum
+and minimum 32-bit unsigned integer numbers which can be obtained using the same
+number of bits set to 1 as in the taken number.
+5 There is a binary tree:
+struct TreeNode {
+struct TreeNode* leftChild;
+struct TreeNode* rightChild;
+}
+Write a function that calculates the depth of the tree (the maximum number of nodes in
+the path from the root to the leaf). Return paths in the tree that have such depth.
